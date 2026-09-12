@@ -3,7 +3,7 @@
 A machine learning project that predicts solar power (AC) output using weather sensor data, and deploys the trained model as a live Streamlit web app.
 
 ## 📊 Dataset
-- Source: Kaggle — Solar Power Generation Data
+- Source: Kaggle Solar Power Generation Data
 - Combined data from 2 solar plants: generation data + weather sensor data (ambient temperature, module temperature, irradiation)
 - Merged on timestamp for each plant
 
@@ -32,10 +32,10 @@ A machine learning project that predicts solar power (AC) output using weather s
 
 **Best hyperparameters:** `learning_rate=0.1, max_depth=3, n_estimators=200, subsample=1.0`
 
-**Feature importance:** Irradiation was by far the most predictive feature (~95%), followed by Plant ID (~3.8%) — confirming that solar irradiance is the dominant driver of power output.
+**Feature importance:** Irradiation was by far the most predictive feature (~95%), followed by Plant ID (~3.8%)  confirming that solar irradiance is the dominant driver of power output.
 
 ## 📁 Files
-- `solar_power_generation_prediction.ipynb` — main notebook (data merging, EDA, feature engineering, model training & tuning)
+- `solar_power_generation_prediction.ipynb`  main notebook (data merging, EDA, feature engineering, model training & tuning)
 - `app.py` — Streamlit app for live predictions using the trained model
 - Dataset files (Plant 1 & 2 generation + weather sensor data)
 
